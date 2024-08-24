@@ -1,5 +1,5 @@
 import unittest
-import typewise-alert
+from typewise-alert import infer_breach
 
 
 class TypewiseTest(unittest.TestCase):
