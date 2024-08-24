@@ -18,7 +18,7 @@ def check_upperlimit(coolingType):
     return 35
   elif coolingType == 'HI_ACTIVE_COOLING':
     return 45
-  elif coolingType == 'MED_ACTIVE_COOLING':
+  else:
     return 40
   
 
